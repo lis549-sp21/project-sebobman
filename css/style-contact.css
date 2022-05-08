@@ -2,3 +2,23 @@ body {
     background-color: seagreen;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+a {
+    color: bisque;
+    text-decoration: none;
+}
+
+a:visited {
+    color:#006400;
+}
+
+section {
+    text-indent: 100px;
+    margin: auto;
+    font-size: larger;
+}
+
+h2 {
+    color: bisque;
+    font-style:italic;
+}

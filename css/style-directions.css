@@ -6,4 +6,28 @@ body {
 
 #map {
     max-width: auto;
+    border-radius: 10px;
+
+}
+
+#address {
+    font-size: 14pt;
+    font-style: italic;
+}
+
+#yellow {
+    max-width: 300px;
+    border-radius: 10px;
+    padding: 0;
+}
+
+#however {
+    font-size: 14pt;
+    font-style: italic;
+}
+
+#punchline {
+    font-style: normal;
+    font-size: larger;
+    color: gold;
 }

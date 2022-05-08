@@ -9,3 +9,26 @@ body {
     max-width: 50%;
     padding: 0%;
 }
+
+#history{
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#beans {
+    border-radius: 10px;
+    max-width: 50%;
+    max-height: 400px;
+}
+
+a:link {
+    text-decoration: none;
+    color: bisque;
+}
+
+a:visited {
+    color: 	#006400;
+}

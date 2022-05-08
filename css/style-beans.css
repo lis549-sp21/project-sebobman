@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-color: seagreen;
     font-family: Arial, Helvetica, sans-serif;
@@ -8,4 +9,13 @@ body {
     max-height: 75%;
     max-width: 50%;
     padding: 0%;
+=======
+body {
+    background-color: seagreen;
+}
+
+#roasting{
+    border-radius: 10px;
+    max-height: ;
+>>>>>>> bc21d1266ae32fa41beec3c32f4741190334cc10
 }

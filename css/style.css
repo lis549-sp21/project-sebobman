@@ -1,7 +1,12 @@
-<<<<<<< HEAD
 body {
     background-color: seagreen;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+
 }
 
 ul {
@@ -12,9 +17,19 @@ ul {
 
 section {
     background-color: bisque;
-    font-family: serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
-=======
-body {background-color: seagreen;}
->>>>>>> bc21d1266ae32fa41beec3c32f4741190334cc10
+
+a {
+    font-size:larger;
+}
+
+a:link {
+    text-decoration: none;
+    color: bisque;
+}
+
+a:visited {
+    color: 	#006400;
+}

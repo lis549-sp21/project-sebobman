@@ -6,7 +6,6 @@ body {
 header {
     padding: 0;
     margin: 0;
-
 }
 
 ul {
@@ -32,4 +31,15 @@ a:link {
 
 a:visited {
     color: 	#006400;
+}
+
+/*small screen styling*/
+@media (min-width: 598px){
+    header, body {
+        text-align: center;
+    }
+    
+    section {
+        background-color: ;
+    }
 }

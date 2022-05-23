@@ -43,3 +43,13 @@ a:visited {
         background-color: ;
     }
 }
+
+/*medium screen styling*/
+@media (min-width: 768px){
+
+}
+
+/*large screen styling*/
+@media (min-width: 992px){
+    
+}

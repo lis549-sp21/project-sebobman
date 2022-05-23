@@ -16,6 +16,7 @@ ul {
 
 section {
     background-color: bisque;
+    background-size: fill;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
@@ -40,16 +41,43 @@ a:visited {
     }
     
     section {
-        background-color: ;
+        color: #006400;
+        text-decoration:solid;
+    }
+    h1, h2, h3 {
+        color: white;
     }
 }
 
 /*medium screen styling*/
 @media (min-width: 768px){
-
+    body { 
+        background-color: blueviolet;
+        color: whitesmoke;
+    }
+    section {
+        background-color: black;
+        color: whitesmoke;
+    }
+    a:link {
+        color: whitesmoke;
+    }
+    a:visited {
+        color: black;
+    }
 }
 
 /*large screen styling*/
 @media (min-width: 992px){
-    
+    body {
+        background-color: #006400;
+        color:bisque;
+    }
+    section {
+        background-color: bisque;
+        color:#006400;
+    }
+    h1, h2, h3 {
+        color: black;
+    }
 }

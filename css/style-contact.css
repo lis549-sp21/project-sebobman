@@ -22,3 +22,41 @@ h2 {
     color: bisque;
     font-style:italic;
 }
+
+/*small screen styling*/
+@media (min-width: 598px){
+    h2 {
+        font-weight: bolder;
+    }
+    body {
+        text-align: center;
+    }
+    section {
+        text-indent: 0;
+        font-weight: bolder;
+    }
+}   
+
+/*medium screen styling*/
+@media (min-width: 768px){
+    p {
+        font-size: larger;
+    }
+    body {
+        text-align: center;
+    }
+}
+
+/*large screen styling*/
+@media (min-width: 992px){
+    p {
+        font-weight: bolder;
+        font-size: larger;
+    }
+    body {
+        text-align: left;
+    }
+    section {
+        text-indent: 100px;
+    }
+}

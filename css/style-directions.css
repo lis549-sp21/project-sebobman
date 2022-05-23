@@ -31,3 +31,41 @@ body {
     font-size: larger;
     color: gold;
 }
+
+/*small screen styling*/
+@media (min-width: 598px){
+    img {
+        box-shadow: 10px 10px 5px gold;
+    }
+    #punchline {
+        font-weight: bolder;
+    }
+    body {
+        font-size: larger;
+        text-align: center;
+    }
+}   
+
+/*medium screen styling*/
+@media (min-width: 768px){
+    body {
+        text-align: center;
+    }
+}
+
+/*large screen styling*/
+@media (min-width: 992px){
+    img {
+        box-shadow: none;
+        border-radius: 10px;
+    }
+    body {
+        text-align: left;
+    }
+    h1 {
+        color: gold;
+    }
+    footer {
+        text-align: right;
+    }
+}

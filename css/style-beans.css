@@ -33,3 +33,35 @@ a:link {
 a:visited {
     color: 	#006400;
 }
+
+/*small screen styling*/
+@media (min-width: 598px){
+    body {
+        text-align:justify;
+        color: bisque;
+    }
+    img {
+        border-radius: 0px;
+    }
+}  
+
+/*medium screen styling*/
+@media (min-width: 768px){
+    body {
+        text-align: center;
+        color: black;
+        font-size: larger;
+    }
+}
+
+/*large screen styling*/
+@media (min-width: 992px){
+    body {
+        text-align: center;
+    }
+    
+    h1, h2 {
+        text-decoration: underline;
+        color: bisque;
+    }
+}
